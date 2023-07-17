@@ -61,7 +61,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
     
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🔞 CLICK HERE FOR OUR ADULT CHANNEL", url='https://t.me/+f9DjfWulIqU3Njlk')
+            InlineKeyboardButton(text="🔞 CLICK HERE FOR OUR ADULT CHANNEL", url='https://t.me/Adultship_films')
         ]
     )
     
