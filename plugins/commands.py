@@ -67,12 +67,11 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "UPDATES CHANNEL 1 🍿", url=invite_link.invite_link
+                    "UPDATES CHANNEL 2 ✨", url=invite_link.invite_link
                 )
             ]
         ]
-        btn = [[InlineKeyboardButton("UPDATES CHANNEL 2 ✨", url="https://t.me/+9qT7uyfNCtM1Njdk")]]
-
+        
         if message.command[1] != "subscribe":
             try:
                 kk, file_id = message.command[1].split("_", 1)
